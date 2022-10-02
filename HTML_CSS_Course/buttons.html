@@ -1,0 +1,107 @@
+
+<!--this changes all background-color of the buttons of the 
+pages to red. This is how CSS works. It allows us to edit the 
+physical properties of the elements within the page-->
+
+<style>
+    .subscribe-button {
+        background-color: rgb(54, 137, 139);
+        color: white;
+        border: rgb(136, 24, 24);
+        border-radius: 10px;
+        border-style: solid;
+        height: 39px;
+        font-size: larger;
+        width: 206px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+</style>
+
+<style>
+    .join-button {
+        background-color: beige;
+        color: black;
+        border: rgb(86, 54, 122);
+        border-radius: 10px;
+        border-style: solid;
+        height: 39px;
+        font-size: larger;
+        width: 206px;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
+
+
+
+<!--assigning names to the buttons for them to be edited individually.
+If you do not do this then the first style will be applied to ALL buttons-->
+
+<button class="subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class="join-button">
+    JOIN
+</button>
+
+
+
+<!--Hover for the tweet button to change color when pressed
+and activated-->
+
+<button class="tweet-button">
+    TWEET
+</button>
+
+<style>
+    .tweet-button {
+        background-color: rgb(143, 143, 62);
+        color: black;
+        border: none;
+        border-radius: 60px;
+        border-style: solid;
+        height: 39px;
+        font-size: larger;
+        width: 206px;
+        cursor: pointer;
+    }
+
+    .tweet-button:hover {
+        background-color: rgb(85, 85, 21);
+    }
+
+    .tweet-button:active {
+        background-color: rgb(86, 54, 122);
+    }
+</style>
+
+
+<!--Hitting the FUCK YOU button-->
+
+<button class="fuckyou-button">
+    FUCK YOU!
+</button>
+
+<style>
+    .fuckyou-button {
+        background-color: rgb(202, 22, 16);
+        color: black;
+        border: none;
+        border-radius: 60px;
+        border-style: solid;
+        height: 39px;
+        font-size: larger;
+        width: 206px;
+        cursor: pointer;
+    }
+    .fuckyou-button:hover {
+        background-color: rgb(216, 156, 156);
+    }
+    .fuckyou-button.active {
+        background-color: rgb(73, 11, 11);
+
+    }
+
+</style>
